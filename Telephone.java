@@ -4,7 +4,6 @@ public class Telephone {
     public static void rand_phone_num(){
         Random generator = new Random();
         String first = String.valueOf(generator.nextInt(999-100)+100);
-//        System.out.println(first);
         if (!first.contains("8")){
             if (!first.contains("9")){
                 String second = String.valueOf(generator.nextInt(655-100)+100);
